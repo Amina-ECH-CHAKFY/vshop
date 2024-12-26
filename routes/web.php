@@ -51,6 +51,22 @@ Route::prefix('products')->controller(ProductListController::class)->group(funct
 
 
 //end
+Route::get('/detail/{slug}', function ($slug) {
+    // Récupérer le produit en fonction du slug
+    $product = App\Models\Product::where('slug', $slug)->firstOrFail();
+
+    // Récupérer l'URL de la première image associée au produit
+    $image = $product->images()->first(); // Prendre la première image associée (ou modifier selon vos besoins)
+
+    // Construire l'URL complète de l'image
+    $imageUrl = $image ? asset('product_images/' . $image->image) : null;
+
+    return Inertia::render('User/Components/detail', [
+        'product' => $product,
+        'imageUrl' => $imageUrl, // Transmettre l'URL de l'image à la vue
+    ]);
+});
+
 
 //admin routs
 

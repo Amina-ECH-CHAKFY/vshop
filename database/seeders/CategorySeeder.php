@@ -14,16 +14,16 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         Category::create([
-            'name' => 'Computer',
-            'slug'=>'dell'
+            'name' => 'Biographie',
+            'slug'=>'biographies '
         ]);
         Category::create([
-            'name' => 'Phone',
-            'slug'=>'dell'
+            'name' => 'Roman',
+            'slug'=>'romans'
         ]);
         Category::create([
-            'name' => 'Watch',
-            'slug'=>'dell'
+            'name' => 'Poésie',
+            'slug'=>'poesie'
         ]);
     }
 }

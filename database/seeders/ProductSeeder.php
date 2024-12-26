@@ -14,12 +14,61 @@ class ProductSeeder extends Seeder
     public function run(): void
     {
         Product::create([
-            'title' => 'Elit reprehenderit eu nostrud et.',
+            'title' => 'fraper lepopé.',
             'price' => 19.03,
             'quantity' => 3,
             'category_id'=> 1,
             'brand_id'=>1,
-            'description'=>'Occaecat cupidatat consequat eu eiusmod sint commodo aute. Fugiat commodo amet do dolore. Ullamco ullamco nisi laboris cillum ea. Excepteur exercitation laborum culpa ex do ipsum id laboris ut ad est commodo. Commodo occaecat commodo ex laborum ea esse consequat pariatur tempor qui reprehenderit. Irure ullamco esse cupidatat voluptate in sunt do officia ullamco fugiat deserunt.'
+            'description'=>'Livre de litterature francaise decrit par alice zeniter il decrit  .'
         ]);
+        Product::create([
+            'title' => 'Le portrait dorain gray.',
+            'price' => 15.00,
+            'quantity' => 3,
+            'category_id'=> 1,
+            'brand_id'=>1,
+            'description'=>'Livre de litterature francaise decrit par lancdome .'
+        ]);
+        Product::create([
+            'title' => 'Sans famille.',
+            'price' => 20.00,
+            'quantity' => 3,
+            'category_id'=> 1,
+            'brand_id'=>1,
+            'description'=>'Livre de litterature francaise decrit par hector malot .'
+        ]);
+        Product::create([
+            'title' => 'Le signeur des anneaux .',
+            'price' => 30.00,
+            'quantity' => 3,
+            'category_id'=> 1,
+            'brand_id'=>1,
+            'description'=>'Livre de litterature francaise decrit par jor tolkien .'
+        ]);
+        Product::create([
+            'title' => 'Dedierot.',
+            'price' => 25.00,
+            'quantity' => 3,
+            'category_id'=> 1,
+            'brand_id'=>1,
+            'description'=>'Livre de litterature francaise decrit par jack .'
+        ]);
+        Product::create([
+            'title' => 'Ames mosquée  la nose .',
+            'price' => 10.00,
+            'quantity' => 3,
+            'category_id'=> 1,
+            'brand_id'=>1,
+            'description'=>'Livre de litterature francaise decrit par larevikest .'
+        ]);
+        Product::create([
+            'title' => 'Notre dame de paris.',
+            'price' => 30.00,
+            'quantity' => 3,
+            'category_id'=> 1,
+            'brand_id'=>1,
+            'description'=>'Livre de litterature francaise decrit par victor hugo .'
+        ]);
+        
     }
 }

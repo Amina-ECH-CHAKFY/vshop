@@ -1,0 +1,72 @@
+[
+    {
+        "name": "APP_NAME",
+        "value": "Vshop on Azure",
+        "slotSetting": "false",
+    },
+    {
+        "name": "APP_ENV",
+        "value": "production",
+        "slotSetting": "false",
+    },
+    {
+        "name": "APP_KEY",
+        "value": "TODO",
+        "slotSetting": "false",
+    },
+    {
+        "name": "APP_DEBUG",
+        "value": "true",
+        "slotSetting": "false",
+    },
+    {
+        "name": "APP_URL",
+        "value": "https://Vshop.test",
+        "slotSetting": "false",
+    },
+    {
+        "name": "LOG_CHANNEL",
+        "value": "stack",
+        "slotSetting": "false",
+    },
+    {
+        "name": "LOG_DEPRECATIONS_CHANNEL",
+        "value": "null",
+        "slotSetting": "false",
+    },
+    {
+        "name": "LOG_LEVEL",
+        "value": "debug",
+        "slotSetting": "false",
+    },
+    {
+        "name": "DB_CONNECTION",
+        "value": "mysql",
+        "slotSetting": "false",
+    },
+    {
+        "name": "DB_HOST",
+        "value": "vshoppdb.mysql.database.azure.com",
+        "slotSetting": "false",
+    },
+    {
+        "name": "DB_PORT",
+        "value": "3306",
+        "slotSetting": "false",
+    },
+    {
+        "name": "DB_DATABASE",
+        "value": "vshop_db",
+        "slotSetting": "false",
+    },
+    {
+        "name": "DB_USERNAME",
+        "value": "vshopuser",
+        "slotSetting": "false",
+    },
+    {
+        "name": "DB_PASSWORD",
+        "value": "123@admin",
+        "slotSetting": "false",
+    },
+]
