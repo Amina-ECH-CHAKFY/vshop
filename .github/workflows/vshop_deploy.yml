@@ -79,4 +79,4 @@ jobs:
         with:
           app-name: 'VShop'
           slot-name: 'Production'
-          package: .
+          package: release.zip
